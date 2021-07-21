@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    height:200px; 
+    width: 175px;
+    margin-bottom: 100px;
+    border-radius: 50%;
+}
+.menu{
+list-style:none;     
+position: fixed;
+font-family: fantasy;
+cursor:pointer;
+z-index:30;     
+top: 10px;
+right: 28px;
+background-color:black;
+}
+.link{
+float: left;
+color: darkgrey;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 9px;
+padding-right: 9px;
+font-family: fantasy;    
+}
+link:hover{
+background-color: cyan;    
+}
+
+#welcome {
+    position: absolute;
+    overflow: scroll;
+    text-align: center;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    background: linear-gradient(#272be8 5%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+h1 {
+
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive
+}
+#bio{
+padding:50px;
+text-align: center;    
+}
+h2{
+font-weight: bolder;
+font-size: 50px;
+padding:50px;     
+}
+.parallax-container{
+display: table-cell;
+ text-align: center;
+vertical-align: middle;    
+}
+#videos{
+text-align: center;
+margin:20px;
+border-color: aqua;
+padding: 20px;
+background-color: blue;    
+}
+#videos:hover{
+background-color:lawngreen;
+}
+#work{
+text-align: center;
+border:50px;
+background-color: aquamarine;    
+border-color: darkseagreen;
+padding: 20px;
+overflow: hidden;    
+}
+#work:hover{
+background-color: chocolate;
+border-color: darkslateblue;    
+}
+#write{
+text-align: center;
+color: darksalmon;
+background-color: dodgerblue;
+ cursor: pointer;
+}
+#contacts{
+text-align: center;
+background-color: darkslategrey;
+}
+.icon{
+height:50px;
+width: 50px;
+color: darkblue;    
+}
+#contact_1{
+background-color: darkturquoise;    
+}
